@@ -7,7 +7,7 @@ function checker(first, second, third) {
       if  (buttons[first].textContent === "X" &&
          buttons[second].textContent === "X" &&
          buttons[third].textContent === "X") {
-         disableButtonsWhenGameIsWon("Gift");
+         disableButtonsWhenGameIsWon("Player 1");
          return;
         } else if (buttons[first].textContent === "O" &&
           buttons[second].textContent === "O" &&
